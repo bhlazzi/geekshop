@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/generales.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/navegador.css">
+    <link rel="stylesheet" href="./css/titulos.css">
+    <link rel="stylesheet" href="./css/agregar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>productos</title>
+</head>
+<body>
+    <!--header-->
+    <header class="header agregar_menu">
+        <div class="logo" id="#home">
+            <img src="./img/palanca.png" alt="palanca" class="img_logo">
+            <h1>geek<span>shop</span></h1>
+            
+        </div>
+        <div class="buscador">
+            <input type="search" name="" id="search" placeholder="search">
+        </div>
+        <div class="lupa">
+            <a href="./login.html"><img src="./img/lupa.png" alt="lupa"></a>
+        </div>
+        <div class="administrador">
+            <button>Menu Administrador</button>
+        </div>
+        
+    </header>
+    <!-- navegacion-->
+    <nav class="nav">
+        <div class="contenedor_nav">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="consolas.html">consolas</a></li>
+                <li><a href="geek.html">geek</a></li>
+                <li><a href="juegos.html">juegos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- login -->
+    <main class="main_agregar">
+        <div class="contenedor_agregar">
+            <div class="titulo_agregar">
+                <h1>Agregar Nuevo Producto</h1>
+            </div>
+            <form method="get" action="" id="list_input" class="list_input">
+                <div class="input"  >
+                    <input type="text" placeholder="Url de la imagen" id="url" name="url">
+                </div>
+                <div class="input" >
+                    <input type="text" placeholder="Categoria" id="categoria" name="categoria">
+                </div>
+                <div class="input" >
+                    <input type="text" placeholder="Nombre producto" id="nombre">
+                </div>
+                <div class="input" >
+                    <input type="text" placeholder="Precio" id="precio">
+                </div>
+                <div class="input" >
+                    <input type="text" placeholder="Descripcion del producto" id="descripcion">
+                </div>
+                <div class="entrar input" >
+                    <button type="submit" onclick="capturarProducto(event)">Agregar Producto</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <div class="contenedor_footer">
+            <div class="logo" id="#home">
+                <img src="./img/palanca.png" alt="palanca" class="img_logo">
+                <h1>geek<span>shop</span></h1>
+            </div>
+            <div class="informacion">
+                <p><a href="">Quienes Somos </a></p>
+                <p><a href="">Politica de Privacidad</a></p>
+                <p><a href="">Programa de Fidelidad</a></p>
+                <p><a href="">Nuestras Tiendas</a></p>
+                <p><a href="">Quiero ser Franquiciado</a></p>
+                <p><a href="">Anuncie Aqui</a></p>
+            </div>
+            <div class="contacto">
+                <div class="datos">
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="datos_mensaje">
+                    <label for="">Mensaje:</label>
+                    <textarea name="mensaje" id="" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="btn_enviar">
+                    <button type="submit">Enviar Mensaje</button>
+                </div>
+                
+            </div>
+            
+
+        </div>
+        <div class="copy">
+            <p>&copy todos los derechos reservado. jose calderon 2022</p>
+        </div>
+    </footer>
+    <script src="./js/agregar.js"></script>
+</body>
+</html>

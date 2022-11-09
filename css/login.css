@@ -1,0 +1,73 @@
+.main{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+.contenedor_main{
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    text-align: center;
+    border-radius: 10px;
+}
+.login input,.contraseña input{
+    width: 400px;
+    height: 80px;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.login{
+    margin: 5rem 0;
+}
+.contraseña{
+
+}
+.entrar{
+    
+    margin: 5rem;
+}
+.entrar button{
+    width: 400px;
+    height: 50px;
+    font-size:2rem ;
+    background-color: var(--primero);
+    color: var(--cuarto);
+    border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+    .main{
+        width: 350px;
+        height: 400px;
+        
+    }
+    .contenedor_main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login input,.contraseña input{
+        width: 300px;
+        height: 50px;
+    }
+    .entrar button{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main{
+        width: 350px;
+        height: 400px;
+        
+    }
+    .contenedor_main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login input,.contraseña input{
+        width: 300px;
+        height: 50px;
+    }
+    .entrar button{
+        width: 200px;
+    }
+}

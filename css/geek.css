@@ -1,0 +1,69 @@
+.main_geek{
+    width: 100vw;
+    height: 100%;
+    
+}
+.contenedor_geek{
+    width: 100%;
+    height: 100%;
+}
+.list_geek{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.card_geek{
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card_geek:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.card_geek h2{
+    font-size: 2rem;
+}
+.card_geek p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.card_geek img{
+    padding: 1rem;
+    width: 300px;
+    height: 200px;
+}
+.agregar{
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    
+    .list_geek{
+        grid-template-columns: repeat(3, 1fr);
+        gap:1rem;
+    }
+    .card_geek{
+        width: 220px;
+    }
+    .card_geek img{
+        width: 200px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .list_geek{
+        grid-template-columns: repeat(2, 1fr);
+        gap:1rem;
+    }
+    .card_geek{
+        width: 170px;
+    }
+    .card_geek img{
+        width: 150px;
+        height: 100px;
+    }
+}

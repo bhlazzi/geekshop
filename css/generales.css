@@ -1,0 +1,19 @@
+:root{
+    --primero:#3F3B6C;
+    --segundo:#DFF6FF;
+    --tercero:#256D85;
+    --cuarto:#FDFDFD;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */ 
+    scroll-behavior: smooth; 
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}

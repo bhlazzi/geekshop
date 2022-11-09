@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/generales.css">
+    <link rel="stylesheet" href="./css/navegador.css">
+    <link rel="stylesheet" href="./css/titulos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/geek.css">
+    <title>geek</title>
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="logo" id="#home">
+            <img src="./img/palanca.png" alt="palanca" class="img_logo">
+            <h1>geek<span>shop</span></h1>
+            
+        </div>
+        <div class="buscador">
+            <input type="search" name="" id="search" placeholder="search">
+        </div>
+        <div class="lupa">
+            <a href="./login.html"><img src="./img/lupa.png" alt="lupa"></a>
+        </div>
+        <div class="login">
+            <a href="login.html"><img src="./img/login.png" alt="login"></a>
+        </div>
+    </header>
+    <!-- navegacion-->
+    <nav class="nav">
+        <div class="contenedor_nav">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="consolas.html">consolas</a></li>
+                <li><a href="geek.html">geek</a></li>
+                <li><a href="juegos.html">juegos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main_geek">
+        <div class="titulo_catalogo">
+            <h1>Geek</h1>
+            <button id="agregar"><a href="agregar.html">Agregar Producto</a></button>
+        </div>
+        <div class="contenedor_geek">
+            <div class=" list_geek " id="list_producto">
+                <div class="card_geek ">
+                    <img src="./img/geek1.jpg" alt="juegos">
+                    <h2>Decoracion Play</h2>
+                    <p>$20.000</p>
+                    <p>sku: 546315</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek2.jpg" alt="juegos">
+                    <h2>Maceta Grood</h2>
+                    <p>$10.000</p>
+                    <p>sku: 542354</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek3.jpg" alt="juegos">
+                    <h2>Lampara Mario</h2>
+                    <p>$27.000</p>
+                    <p>sku: 845214</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek4.jpg" alt="juegos">
+                    <h2>Cojines Avengers</h2>
+                    <p>$7.000</p>
+                    <p>sku: 645478</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek5.jpg" alt="juegos">
+                    <h2>Poleras</h2>
+                    <p>$25.000</p>
+                    <p>sku: 654164</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek6.jpg" alt="juegos">
+                    <h2>Funk Pop</h2>
+                    <p>$15.000</p>
+                    <p>sku: 564125</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek7.jpg" alt="juegos">
+                    <h2>Tazon Star Wars</h2>
+                    <p>$5.000</p>
+                    <p>sku: 748476</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek8.jpg" alt="juegos">
+                    <h2>Botella Play</h2>
+                    <p>$7.000</p>
+                    <p>sku: 864121</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek9.jpg" alt="juegos">
+                    <h2>Repisas</h2>
+                    <p>$40.000</p>
+                    <p>sku: 874219</p>
+                </div>
+                <div class="card_geek">
+                    <img src="./img/geek10.jpg" alt="juegos">
+                    <h2>Poster varios</h2>
+                    <p>$2.500</p>
+                    <p>sku: 654642</p>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <div class="contenedor_footer">
+            <div class="logo" id="#home">
+                <img src="./img/palanca.png" alt="palanca" class="img_logo">
+                <h1>geek<span>shop</span></h1>
+            </div>
+            <div class="informacion">
+                <p><a href="">Quienes Somos </a></p>
+                <p><a href="">Politica de Privacidad</a></p>
+                <p><a href="">Programa de Fidelidad</a></p>
+                <p><a href="">Nuestras Tiendas</a></p>
+                <p><a href="">Quiero ser Franquiciado</a></p>
+                <p><a href="">Anuncie Aqui</a></p>
+            </div>
+            <form class="contacto">
+                <div class="datos">
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="datos_mensaje">
+                    <label for="">Mensaje:</label>
+                    <textarea name="mensaje" id="" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="btn_enviar">
+                    <button type="submit">Enviar Mensaje</button>
+                </div>
+                
+            </form>
+            
+
+        </div>
+        <div class="copy">
+            <p>&copy todos los derechos reservado. jose calderon 2022</p>
+        </div>
+    </footer>
+    <script src="./js/agregar.js"></script>
+</body>
+</html>

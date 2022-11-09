@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/generales.css">
+    <link rel="stylesheet" href="./css/navegador.css">
+    <link rel="stylesheet" href="./css/titulos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/consolas.css">
+    <title>consolas</title>
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="logo" id="#home">
+            <img src="./img/palanca.png" alt="palanca" class="img_logo">
+            <h1>geek<span>shop</span></h1>
+            
+        </div>
+        <div class="buscador">
+            <input type="search" name="" id="search" placeholder="search">
+        </div>
+        <div class="lupa">
+            <a href="./login.html"><img src="./img/lupa.png" alt="lupa"></a>
+        </div>
+        <div class="login">
+            <a href="login.html"><img src="./img/login.png" alt="login"></a>
+        </div>
+    </header>
+    <!-- navegacion-->
+    <nav class="nav">
+        <div class="contenedor_nav">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="consolas.html">consolas</a></li>
+                <li><a href="geek.html">geek</a></li>
+                <li><a href="juegos.html">juegos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main_consolas">
+        <div class="titulo_catalogo">
+            <h1>consolas</h1>
+            <button id="agregar"><a href="agregar.html">Agregar Producto</a></button>
+        </div>
+        <div class="contenedor_consolas">
+            <div class=" list_consolas list_producto">
+                <div class="card_consola switch">
+                    <img src="./img/nintendo.jpg" alt="nintendo">
+                    <h2>Nintendo Switch</h2>
+                    <p>$350.000</p>
+                    <p>sku: 525421</p>
+                </div>
+                <div class="card_consola advance">
+                    <img src="./img/advance.jpg" alt="Advance">
+                    <h2>GameBoy Advance</h2>
+                    <p>$70.000</p>
+                    <p>sku: 123154</p>
+                </div>
+                <div class="card_consola gameboy">
+                    <img src="./img/gameboy.jpg" alt="gameboy">
+                    <h2>GameBoy</h2>
+                    <p>$50.000</p>
+                    <p>sku: 545331</p>
+                </div>
+                <div class="card_consola vita">
+                    <img src="./img/pspvita.jpg" alt="pspvita">
+                    <h2>PSP Vita</h2>
+                    <p>$120.000</p>
+                    <p>sku: 877636</p>
+                </div>
+                <div class="card_consola steam">
+                    <img src="./img/steam.jpg" alt="steam">
+                    <h2>Steam Deck</h2>
+                    <p>$450.000</p>
+                    <p>sku: 542314</p>
+                </div>
+                <div class="card_consola xbox">
+                    <img src="./img/xbox.jpg" alt="xbox">
+                    <h2>Xbox One</h2>
+                    <p>$300.000</p>
+                    <p>sku: 894654</p>
+                </div>
+                <div class="card_consola nintendo">
+                    <img src="./img/nintendo clasic.jpg" alt="nintendo clasic">
+                    <h2>Nintendo Clasic</h2>
+                    <p>$100.000</p>
+                    <p>sku: 465456</p>
+                </div>
+                <div class="card_consola snes">
+                    <img src="./img/snes.jpg" alt="snes">
+                    <h2>Super Nintendo</h2>
+                    <p>$125.000</p>
+                    <p>sku: 894654</p>
+                </div>
+                <div class="card_consola agregar">
+                    <img src="./img/" alt="">
+                    <h2></h2>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <div class="contenedor_footer">
+            <div class="logo" id="#home">
+                <img src="./img/palanca.png" alt="palanca" class="img_logo">
+                <h1>geek<span>shop</span></h1>
+            </div>
+            <div class="informacion">
+                <p><a href="">Quienes Somos </a></p>
+                <p><a href="">Politica de Privacidad</a></p>
+                <p><a href="">Programa de Fidelidad</a></p>
+                <p><a href="">Nuestras Tiendas</a></p>
+                <p><a href="">Quiero ser Franquiciado</a></p>
+                <p><a href="">Anuncie Aqui</a></p>
+            </div>
+            <form class="contacto">
+                <div class="datos">
+                    <label for="">Nombre:</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="datos_mensaje">
+                    <label for="">Mensaje:</label>
+                    <textarea name="mensaje" id="" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="btn_enviar">
+                    <button type="submit">Enviar Mensaje</button>
+                </div>
+                
+            </form>
+            
+
+        </div>
+        <div class="copy">
+            <p>&copy todos los derechos reservado. jose calderon 2022</p>
+        </div>
+    </footer>
+    <script src="./js/agregar.js"></script>
+</body>
+</html>

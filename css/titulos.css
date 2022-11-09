@@ -1,0 +1,107 @@
+/*titulo destacado*/
+.titulo{
+    margin: 5rem 0;
+}
+.titulo h1{
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/*titulo main*/
+.titulo_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:3rem 0;
+}
+.titulo_main h2{
+    margin:2rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.titulo_main p{
+    
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+.titulo_main p a{
+    text-decoration: none;
+}
+.titulo_main p a img{
+    width: 15px;
+    height: 15px;
+
+}
+/*pag login*/
+.titulo_login h1{
+    font-size: 3rem;
+    
+}
+/*pag agregar*/
+.titulo_agregar{
+    text-align: center;
+    
+}
+.titulo_agregar h1{
+    font-size: 4rem;
+}
+/* pag consolas*/
+.titulo_catalogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+.titulo_catalogo h1{
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform:uppercase ;
+}
+.titulo_catalogo button{
+    width: 150px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: var(--primero);
+    color: var(--cuarto);
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+.titulo_catalogo>button>a{
+    text-decoration: none;
+    color: var(--cuarto);
+    transition: all 2s ease;
+}
+.titulo_catalogo button:hover{
+    transform: scale(1.1);
+    transform: transition 1s ;
+}
+/*movil*/
+@media screen and (max-width: 480px) {
+    .titulo h1{
+        font-size: 3rem;
+    }
+    .titulo_main h2{
+        font-size: 2rem;
+    }
+    .titulo_main p{
+        font-size: 1rem;
+    }
+    /*catalogo*/
+    .titulo_catalogo{
+        margin: 2rem;
+    }
+    .titulo_catalogo h1{
+        font-size: 3rem;
+    }
+    .titulo_catalogo button{
+        width: 150px;
+        padding:1rem 2rem;
+        margin-right:1rem ;
+    }
+    /*agregar*/
+    .titulo_agregar h1{
+        font-size: 3rem;
+    }
+}

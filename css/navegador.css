@@ -1,0 +1,31 @@
+.nav{
+    width: 100vw;
+    height: 50px;
+    background-color: var(--primero);
+    margin-bottom: 5rem;
+    
+}
+.contenedor_nav{
+    width: 100%;
+    
+}
+.contenedor_nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 2rem;
+}
+.contenedor_nav >ul> li{
+    list-style: none;
+
+}
+.contenedor_nav >ul> li>a{
+    color: var(--cuarto);
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.contenedor_nav >ul> li:hover{
+    transform: scale(1.1);
+}
